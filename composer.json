@@ -1,4 +1,9 @@
 {
+	{
+    "require": {
+      "php": "^5.6.0"
+    }
+  },
 	"name": "laravel/laravel",
 	"description": "The Laravel Framework.",
 	"keywords": ["framework", "laravel"],
