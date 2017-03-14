@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "09d2e39858534c9380947adb4a0215dd",
+    "content-hash": "fc5b0c85a28a4ae49b4b1bc0e792d795",
     "packages": [
         {
             "name": "barryvdh/laravel-dompdf",
@@ -231,16 +231,16 @@
         },
         {
             "name": "h4cc/wkhtmltopdf-amd64",
-            "version": "dev-master",
+            "version": "0.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/h4cc/wkhtmltopdf-amd64.git",
-                "reference": "0c1f1801f3317f0171b4a48ab0fe6d248980ea9e"
+                "reference": "b80ce6720349e98cebac7e8a19426455805fa7e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/h4cc/wkhtmltopdf-amd64/zipball/0c1f1801f3317f0171b4a48ab0fe6d248980ea9e",
-                "reference": "0c1f1801f3317f0171b4a48ab0fe6d248980ea9e",
+                "url": "https://api.github.com/repos/h4cc/wkhtmltopdf-amd64/zipball/b80ce6720349e98cebac7e8a19426455805fa7e1",
+                "reference": "b80ce6720349e98cebac7e8a19426455805fa7e1",
                 "shasum": ""
             },
             "bin": [
@@ -267,47 +267,7 @@
                 "thumbnail",
                 "wkhtmltopdf"
             ],
-            "time": "2016-04-23T17:10:02+00:00"
-        },
-        {
-            "name": "h4cc/wkhtmltopdf-i386",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/h4cc/wkhtmltopdf-i386.git",
-                "reference": "79f2f8ed78d35f5541beceb2ec6fcd01a76e05ba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/h4cc/wkhtmltopdf-i386/zipball/79f2f8ed78d35f5541beceb2ec6fcd01a76e05ba",
-                "reference": "79f2f8ed78d35f5541beceb2ec6fcd01a76e05ba",
-                "shasum": ""
-            },
-            "bin": [
-                "bin/wkhtmltopdf-i386"
-            ],
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL Version 3"
-            ],
-            "authors": [
-                {
-                    "name": "Julius Beckmann",
-                    "email": "github@h4cc.de"
-                }
-            ],
-            "description": "Convert html to pdf using webkit (qtwebkit). Static linked linux binary for i386 systems.",
-            "homepage": "http://wkhtmltopdf.org/",
-            "keywords": [
-                "binary",
-                "convert",
-                "pdf",
-                "snapshot",
-                "thumbnail",
-                "wkhtmltopdf"
-            ],
-            "time": "2016-02-02T19:38:57+00:00"
+            "time": "2016-02-02T19:38:55+00:00"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -2074,9 +2034,7 @@
     "stability-flags": {
         "phpoffice/phpexcel": 20,
         "thujohn/pdf": 20,
-        "mikehaertl/phpwkhtmltopdf": 20,
-        "h4cc/wkhtmltopdf-i386": 20,
-        "h4cc/wkhtmltopdf-amd64": 20
+        "mikehaertl/phpwkhtmltopdf": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
