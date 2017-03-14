@@ -1,0 +1,242 @@
+body{ font-size:12px; background-color:#fff;max-height: 100%;}
+#mainTable, .sortable {
+    border-spacing: 0;
+    border-collapse: collapse !important;
+    width:100%;
+}
+
+.main_header th, .header_mile th {text-align: center !important;}
+.child-mtasklist th {text-align: left !important;}
+
+.dl-to-pdf{float:right !important;}
+
+.table-bordered{
+    /*border: 1px solid #444 !important;*/
+}
+
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #ddd !important;
+}
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    /*border-bottom-width: 1px !important;*/
+}
+
+a, a:link{ outline: none; }
+label{ font-family:Arial, Helvetica, sans-serif;  }
+.logo, .logo img{ position:relative; float:left;}
+.block{ position:relative; float:left; width:100%;}
+.hdr-block{ border-bottom:1px solid #dddddd; -webkit-box-shadow: 0 8px 6px -6px #999999;-moz-box-shadow: 0 8px 6px -6px #999999; box-shadow: 0 8px 6px -6px #999999; }
+.hdr-section{ position:fixed; margin-top:0; z-index: 100; background-color: #FFF;}
+.container-fluid{ background: none !important;  }
+.hdr-wrapper{ height:70px; }
+
+table.milestone{
+    font-size:11px;
+    background-color:#fff;
+}
+table.milestone th{
+    /*background-color:#000;*/
+    /*color:#fff;*/
+    text-align:center;
+    font-size:12px;
+    font-weight:bold;
+    /*padding:5px 5px;*/
+}
+table.milestone td{
+    font-size:11px;
+    padding:5px 5px;
+    background-color:#fff;
+}
+table.task{
+    font-family:verdana;
+    background-color:#C0C0C0;
+    margin:10px 0;
+}
+table.task th{
+    background-color:#fff;
+    color:#222;
+    font-size:11px;
+    text-align:left;
+    padding:5px 5px;
+}
+table.task td{
+    font-size:11px;
+    padding:5px 5px;
+    background-color:#fff;
+}
+table.task td a{
+    color:#222;
+}
+
+table.task tr.completed td{
+    background-color:#f6f6f6;
+    color:#888;
+}
+table tr td.upcoming,table.milestone tr td.upcoming,table.task tr td.upcoming{
+    background-color:#F90;
+}
+div#legend table td.completed,table.milestone tr td.completed,table.task tr td.completed{
+    background-color:#9C0 !important;
+}
+table tr td.late,table.milestone tr td.late,table.task tr td.late{
+    background-color:#F00;
+}
+table tr td.lined{
+    border:1px solid #000;
+}
+h2.report{
+    color:#333;
+    font-family:"Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    margin:15px 0 10px 0;
+    padding:10px 10px 10px 5px;background-color:#f6f6f6;
+}
+h3.tasklist{
+    font-family:"Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    margin:5px 0;
+    color:#404040;
+    border-bottom:1px solid #404040;
+    background-color:#fff;
+    border-top:none;
+    padding:2px 5px;
+}
+table tr td.yellow{
+    background-color:#ffc;
+    font-weight:bold;
+    color:#000;
+}
+
+.main_header th{
+    background-color:#000;
+    color:#fff;
+}
+
+table.sortable tr.completed td {
+    background-color: #f6f6f6;
+    color: #888;
+}
+
+.strikedout{
+    color:#888;cursor: pointer; text-decoration:line-through;
+}
+
+.description p {
+    position: relative;
+    margin-bottom: 0;
+    padding-right: 7px;
+}
+
+a.collapse {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.collapse:hover {
+    text-decoration: none;
+}
+
+td a {
+    color:#000 !important;
+}
+
+a.collapse-mil {
+    cursor: pointer;
+    padding: 0 5px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+a.collapse-task {
+    cursor: pointer;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+.tablesorter-no-sort tr th{
+    /*padding:8px !important;*/
+}
+
+.tasklist_wrapper{width: 98% !important; padding:0 20px; margin-left: 0 !important;}
+table.tasklisttable{table-layout: fixed; display: table;}
+table.tasklisttable thead.tasklist_header tr th:first-child {width: 15px !important;}
+table.tasklisttable tbody.mil-task-list.show-task{ width: 90% !important; padding-left: 20px; margin-left: 0 !important;}
+table.tasklisttable tbody.mil-task-list tr.indicator td:first-child{width: 15px !important;}
+#mainTable .mil-task-list .indicator{width: 15px !important;}
+.milestone_row td.indicator{width: 15px !important;}
+.tasklist_wrapper .priority-entry{width:4% !important;}
+.tasklist_wrapper .progress-entry{width:5% !important;}
+.tasklist_wrapper .status-entry{width:6% !important;}
+.tasklist_wrapper .time-entry{width:6% !important;}
+.tasklist_wrapper .date-entries{width:6% !important;}
+.tasklist_wrapper .person-entry{width:7% !important;}
+/*.sub_header_task{width: 100% !important;}*/
+
+.tablesorter-filter.disabled{display:none !important;}
+.tablesorter-default {
+    background-color: #fff;
+    border-spacing: 0;
+    color: #333;
+    font: 12px/18px Arial,Sans-serif;
+    /*margin: 10px 0 15px;*/
+    text-align: left;
+    /* width: 100% !important;*/
+}
+
+td.total-over-under {
+    background: none repeat scroll 0 0 #dfdfdf !important;
+    font-weight: bold;
+}
+
+th.strikedout, td.strikedout{display:none;border: medium none;}
+th.description{}
+th.tl{/*width:15%;*/}
+
+td.red{color:red !important;}
+td.green{color:green !important;}
+
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+
+table.milestone tr.total-over-under:hover td{
+    background: #dfdfdf !important;
+}
+
+/*.mil-task-list .indicator {width:30px !important;}
+.mil-task-list .tablesorter-inner-indicator, .mil-task-list .indicator .tablesorter-inner-indicator {width:30px !important;}
+.header_mile .tablesorter-inner-indicator {width:30px !important;}
+.mil-task-list tr .tablesorter-inner-indicator, .sub_header_task  .tablesorter-inner-indicator{ width:30px !important;}
+*/
+
+.time-cell{
+    width: 100px;
+}
+
+.table-bordered > tbody > tr > td.border-completed {
+    border-bottom:1px solid #f6f6f6 !important;
+    border-right: 1px solid #dddddd !important;
+}
+
+.table-bordered > tbody > tr > td.border-late, .table-bordered > tbody > tr > td.border-upcoming {
+    border:1px solid transparent !important;
+    border-right:1px solid #dddddd !important;
+}
+
+.table-bordered > tbody > tr > td.desc_area{ border-bottom:1px solid transparent !important;}
+
+
+.name{margin-top: 10px;}
+.comments{margin-left:20px;}
