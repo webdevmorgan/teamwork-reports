@@ -10,8 +10,7 @@
         "barryvdh/laravel-dompdf": "0.4.*",
         "thujohn/pdf": "dev-master",
         "mikehaertl/phpwkhtmltopdf": "dev-master",
-		"h4cc/wkhtmltopdf-i386": "dev-master",
-        "h4cc/wkhtmltopdf-amd64": "dev-master"
+        "h4cc/wkhtmltopdf-amd64": "0.12.3"
 		
 	},
 	"autoload": {
