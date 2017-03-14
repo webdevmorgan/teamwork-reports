@@ -1,14 +1,10 @@
 {
-	{
-    "require": {
-      "php": "^5.6.0"
-    }
-  },
 	"name": "laravel/laravel",
 	"description": "The Laravel Framework.",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
+  	"php": "^5.6.0",
 		"laravel/framework": "4.1.*",
         "phpoffice/phpexcel": "dev-master",
         "barryvdh/laravel-dompdf": "0.4.*",
