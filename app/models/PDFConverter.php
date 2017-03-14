@@ -25,8 +25,7 @@ class PDFConverter {
         
         
 
-        $pdf->binary = base_path().'/app/wkhtmltopdf-i386';
-        error_log($pdf->binary, 0);
+        $pdf->binary = base_path().'/app/wkhtmltopdf';
         $pdf->saveAs(base_path()."/public/documents/".$filename);
         //$pdf->send();
         //$pdf->send('sample2.pdf');
