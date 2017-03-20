@@ -100,7 +100,8 @@ table.sortable tr.completed td {
     color: #888;
 }
 
-td.strikedout{
+td.strikedout,
+th.strikedout{
     color:#888;cursor: pointer; text-decoration:line-through;
 }
 
