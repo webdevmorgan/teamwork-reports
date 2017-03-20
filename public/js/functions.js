@@ -262,7 +262,7 @@ $(document).ready(function (){
                     $(this).find('input').prop('checked', 'checked');
 
                 });
-                
+                /*
                 $(this).parent().siblings('th').addClass('strikedout');
                 total.find('th:gt(0)').addClass('strikedout');
                 children.find('tr').each(function () {
@@ -270,6 +270,7 @@ $(document).ready(function (){
                     $(this).find('input').prop('checked', 'checked');
 
                 });
+                */
             } else {
                 $(this).parent().siblings().removeClass('strikedout');
                 total.find('td:gt(0)').removeClass('strikedout');
@@ -277,13 +278,14 @@ $(document).ready(function (){
                     $(this).find('td:gt(0)').removeClass('strikedout');
                     $(this).find('input').prop('checked', false);
                 });
-                
+                /*
                 $(this).parent().siblings().removeClass('strikedout');
                 total.find('th:gt(0)').removeClass('strikedout');
                 children.find('tr').each(function () {
                     $(this).find('th:gt(0)').removeClass('strikedout');
                     $(this).find('input').prop('checked', false);
                 });
+                */
             }
 
             if($(this).closest('.tablesorter-childRow').length > 0) {
